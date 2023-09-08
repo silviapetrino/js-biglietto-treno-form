@@ -16,6 +16,7 @@ let discount = 0;
 let age = document.getElementById("age");
 const buttonOk = document.getElementById("button1");
 let finalPrice = (ticketPrice - discount).toFixed(2) + "€";
+const showTicket = document.getElementById("show-ticket"); 
 
 
 buttonOk.addEventListener("click", function(){
