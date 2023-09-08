@@ -10,6 +10,41 @@
 </head>
 <body>
 
+<div class="container">
+  <div class="card p-3">
+
+    <form action="">
+
+      <label for="name">Nome e cognome</label>
+      <input id="name" class="form-control" type="text" placeholder="inserisci nome e cognome" aria-label="default input example">
+
+      <label for="kilometres">Km da percorrere</label>
+      <input id="kilometres" class="form-control" type="text" placeholder="inserisci km da percorrere" aria-label="default input example">
+
+      <label>Fascia di età</label>
+      <select id="age" class="form-select" aria-label="Default select example">
+        <option>minorenne</option>
+        <option>maggiorenne</option>
+        <option>Over 65</option>
+      </select>
+
+      <button id="button1" type="button" class="btn btn-primary my-2">Genera</button>
+
+      <button type="button2" class="btn btn-warning my-2">Annulla</button>
+
+    </form>
+
+  </div>
+</div>
+
+<div class="container bg-primary">
+  <div id="show-ticket" class="d-none">
+    <h4>Dettaglio passeggeri</h4>
+  </div>
+</div>
+
+ 
+
 <script src="./js/script.js"></script>
 </body>
 </html>
