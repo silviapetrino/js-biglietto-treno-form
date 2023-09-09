@@ -13,7 +13,7 @@
 <div class="container">
   <div class="card p-3">
 
-    <form action="">
+    
 
       <label for="name">Nome e cognome</label>
       <input id="name" class="form-control" type="text" placeholder="inserisci nome e cognome" aria-label="default input example">
@@ -30,18 +30,183 @@
 
       <button id="button1" type="button" class="btn btn-primary my-2">Genera</button>
 
-      <button type="button2" class="btn btn-warning my-2">Annulla</button>
+      <button id="button2" type="button2" class="btn btn-warning my-2">Annulla</button>
 
-    </form>
-
+   
   </div>
 </div>
 
-<div class="container bg-primary">
-  <div id="show-ticket" class="d-none">
-    <h4>Dettaglio passeggeri</h4>
+<section id="show-ticket" class="container l-section ticket">
+  <div class="row main-content">
+    <div class="col-md-9 ticket__main__content">
+      <div class="ticket__main">
+        <div class="info train-name">
+        hogwarts Express
+        </div> 
+         <div class="row ticket__main-inner">
+        <div class="col-md-9 passenger__info">
+          <div class="info passenger-name">
+            <label for="" class="title">
+              PASSENGER
+            </label>
+            <p id="name-pass" class="fw-bold color-txt-sp">
+              <span class="text-uppercase ">Name<span>
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 info station-depart">
+               <label for="" class="title">
+                DEPART
+               </label>
+              <p>
+             KING'S CROSS
+               </p>
+            </div>
+            <div class="col-md-6 info">
+              <label for="" class="title">
+                ARRIVE
+
+               </label>
+              <p>
+            HOGSMEADE
+               </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 info">
+              <label for="" class="title">
+              DATE
+
+            </label>
+            <p>
+              1 SEP 2018, 11:00 AM
+            </p>
+            </div>
+            <div class="col-md-4 info ">
+               <label for="" class="title">
+              PRICE
+
+              </label>
+            <p id="pr-ticket" class="fw-bold color-txt-sp ">
+              
+            </p>
+            </div>
+            <div class="col-md-2 info ">
+              <label for="" class="title">
+              CAR
+              </label>
+            <p>
+              4
+            </p>
+            </div>
+            <div class="col-md-2 info ">
+              <label for="" class="title">
+              SEAT
+              </label>
+            <p>
+              6B
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 platform__info">
+          <p>
+            DEPART
+          </p>
+          <p>
+            
+          FROM
+          </p>
+          <p>
+             PLATFORM
+          </p>
+          <p>
+             <span class="decimal">9</span> 
+            <span class="fraction">
+                <span>3</span>
+                <span>4</span>
+            </span>
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="disclaimer">
+        <div class="row">
+          <div class="col-md-8 disc-text">
+            <p class="text pt-2 fw-bold " id="message-pr">
+              ...
+            </p>
+          
+          </div>
+          <div class="col-md-1 cart">
+            <div class="">
+              <i class="fa fa-shopping-cart fa-3x"></i>
+            </div>
+          </div>
+          <div class="col-md-3 barcode-wrapper">
+            <div class="barline">
+              
+            </div>
+            <p class="barcode fw-bold color-txt-sp" id="barcode">
+             N° ticket
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 ticket__side">
+         <div class=" title">
+         HOGWARTS EXPRESS
+         </div>
+      <div class="side arrive">
+        <p class="info__item">
+          ARRIVE
+
+        </p>
+        <p class="info__detail">
+          HOGSMEADE
+        </p>
+      </div>
+      <div class="side depart">
+        <p class="info__item">
+          DEPART
+        </p>
+        <p class="info__detail">
+          KING'S CROSS 
+        </p>
+      </div>
+      <div class="side date">
+        <p class="info__item">
+          DATE
+        </p>
+        <p class="info__detail">
+          1 SEP 2018
+        </p>
+      </div>
+      <div class="side time">
+        <p class="info__item">
+          TIME
+        </p>
+        <p class="info__detail">
+          11:00AM
+        </p>
+      </div>
+      <div class="barcode-wrapper">
+            <div class="barline">
+              
+            </div>
+            <p class="barcode">
+              001256733
+            </p>
+          </div>
+        </div>
+    </div>
   </div>
-</div>
+  
+    
+</section>
+
+
 
  
 
