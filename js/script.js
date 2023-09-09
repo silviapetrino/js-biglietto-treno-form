@@ -1,6 +1,5 @@
 
 
-
 const buttonOk = document.getElementById("button1");
 const buttonHide = document.getElementById("button2")
 const showTicket = document.getElementById("show-ticket");
