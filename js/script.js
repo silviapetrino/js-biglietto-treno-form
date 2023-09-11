@@ -32,7 +32,6 @@ buttonOk.addEventListener("click", function(){
 
   } else if (age.value == "elder") {
     const discountElder = ((ticketPrice*40)/100).toFixed(2);
-    console.log(discountElder);
     message = "In quanto Over65, pagherai solo "
     finalPrice = (ticketPrice - discountElder).toFixed(2);
 
@@ -58,52 +57,3 @@ Math.floor(Math.random(1) * 100000000);
 
          
 
-
-
-
-
-
-
-
-
-
-
-
-
-// const kilometres = document.getElementById("kilometres").value;
-// const kmPrice = 0.21;
-// const ticketPrice = kmPrice * kilometres;
-// let discount = 0;
-// let age = document.getElementById("age");
-// const buttonOk = document.getElementById("button1");
-// let finalPrice = (ticketPrice - discount).toFixed(2) + "€";
-// const showTicket = document.getElementById("show-ticket"); 
-
-
-
-// const name = document.getElementById("name");
-// let age = document.getElementById("age");
-
-// // bottoni //
-// const buttonOk = document.getElementById("button1");
-// const buttonHide = document.getElementById("button2");
-// const showTicket = document.getElementById("show-ticket"); 
-
-
-// let kilometres = document.getElementById("kilometres").value;
-// const kilometerPrice = 0.21;
-// const ticketPrice = kilometerPrice * kilometres;
-// let discount = 0;
-
-
-
-
-
-
-
-// buttonHide.addEventListener("click", function(){
-//   showTicket.className = " d-none";
-//  })
-
-
- 
